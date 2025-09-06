@@ -1,0 +1,5 @@
+[
+  { "input": "I love pizza", "expected": "Positive" },
+  { "input": "I hate rain", "expected": "Negative" },
+  { "input": "The movie was okay", "expected": "Neutral" }
+]
