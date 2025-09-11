@@ -24,15 +24,3 @@ The dashboard allows developers to evaluate AI models side by side in terms of s
 - APIs: Custom endpoints for model fetching and evaluation  
 
 
-## Project Structure
-AI-Evaluation-Dashboard/
-├── client/ # Next.js frontend
-│ ├── pages/ # UI pages
-│ ├── components/ # React components
-│ └── ...
-├── server/ # Node.js backend
-│ ├── routes/ # API endpoints
-│ ├── controllers/ # Business logic
-│ └── ...
-├── README.md
-└── package.json
