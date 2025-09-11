@@ -1,11 +1,28 @@
-IONET
+# AI Model Evaluation Dashboard
 
-IONET is a test project built to explore and implement features around decentralized networks, scalability, and next-gen internet infrastructure. This repository (IO_NET_TEST) serves as a sandbox for experimenting with code structure, setup, and integration.
+This project is a demo app built to showcase how **@ionet**’s decentralized GPU network can power real-world AI use cases.  
+The dashboard allows developers to evaluate AI models side by side in terms of speed, precision, and accuracy.
 
-🚀 Features
 
-Modular project structure for testing.
 
-Ready-to-extend base for future IONET components.
+## Features
 
-Git integration for clean version tracking.
+- Accepts text, image, or data inputs for evaluation  
+- Compare multiple AI models at the same time  
+- Returns metrics on speed, precision, and accuracy  
+- Provides backend endpoints for fetching available models and running evaluations  
+- Built with Next.js for the frontend and Node.js for the backend  
+- Developer-friendly UI for quick testing  
+
+
+
+## Tech Stack
+
+- Frontend: Next.js  
+- Backend: Node.js + Express  
+- Styling: TailwindCSS (optional)  
+- APIs: Custom endpoints for model fetching and evaluation  
+
+
+## Project Structure
+
