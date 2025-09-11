@@ -7,7 +7,7 @@ The dashboard allows developers to evaluate AI models side by side in terms of s
 
 ## Features
 
-- Accepts text, image, or data inputs for evaluation  
+- Accepts text inputs for evaluation  
 - Compare multiple AI models at the same time  
 - Returns metrics on speed, precision, and accuracy  
 - Provides backend endpoints for fetching available models and running evaluations  
@@ -25,4 +25,14 @@ The dashboard allows developers to evaluate AI models side by side in terms of s
 
 
 ## Project Structure
-
+AI-Evaluation-Dashboard/
+├── client/ # Next.js frontend
+│ ├── pages/ # UI pages
+│ ├── components/ # React components
+│ └── ...
+├── server/ # Node.js backend
+│ ├── routes/ # API endpoints
+│ ├── controllers/ # Business logic
+│ └── ...
+├── README.md
+└── package.json
